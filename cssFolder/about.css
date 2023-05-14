@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    margin-top: -20px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 13%);
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    float: left;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: -10px;
+}
+
+.navbar{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navbar ul li a{
+    color: #354259;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Gentium Plus', serif;
+    padding-inline: 20px;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover{
+    color: #E74646;
+}
+.navbar ul li a img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.atas img{
+    width: 100%;
+    height: 330px;
+}
+
+
+
+.about{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f5f1f1;
+}
+.about h1{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #7F669D;
+}
+.about h2{
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 30px;
+    color: #394867;
+}
+.about .in-about1{
+    display: flex;
+    padding: 10% 6%;
+    align-items: center;
+    justify-content: center;
+}
+.about .in-about1 .text{
+    width: 1000px;
+    height: 250px;
+    background: #ffb6b971;
+    box-shadow: -10px 10px 10px rgba(253, 138, 138, 0.596);
+    margin-left: -90px;
+    border-radius: 5px;
+}
+.about .in-about1 .text h2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.about .in-about1 .text h1{
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+.about .in-about1 img{
+    width: 350px;
+    height: 350px;
+    margin-right: 60px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+
+.about .in-about2{
+    display: flex;
+    padding: 2% 6% 10%;
+    align-items: center;
+    justify-content: center;
+}
+.about .in-about2 .text{
+    width: 1000px;
+    height: 300px;
+    background: #ffb6b971;
+    box-shadow: 10px 10px 10px rgba(253, 138, 138, 0.596);
+    margin-right: -90px;
+    border-radius: 5px;
+}
+.about .in-about2 .text h2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.about .in-about2 .text h1{
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+.about .in-about2 img{
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #354259;
+    margin-top: 50px;
+}
+.footer h4{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #c2ded1;
+}
+.footer p{
+    font-size: 20px;
+    color: aliceblue;
+}
+.payment-ic img{
+    width: 45px;
+    height: 45px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    color: #c2ded1;
+}
