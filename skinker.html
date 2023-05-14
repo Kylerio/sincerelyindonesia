@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sincere</title>
+    <link rel="stylesheet" href="cssFolder/skinker.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Quicksand&family=Ysabeau:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo"><a href="skinker.html"> <img src="asset/logo sincere.png"></a></div>
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="skinker.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#"><img src="asset/user.png" alt=""></a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+    </section>
+
+
+    <section class="landing">
+        <div class="box-opening">
+            <div class="opening">
+                <h1>BEAUTIFUL SKIN REQUIRES COMMITMENT.<br> NOT A MIRACLE.</h1>
+                <h2>Sincère(ly) Made For You</h2>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="isi">
+                <input type="radio" name="rad-btn" id="radio1">
+                <input type="radio" name="rad-btn" id="radio2">
+                <input type="radio" name="rad-btn" id="radio3">
+
+                <div class="slide first">
+                    <img src="asset/landing_1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="asset/landing_2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="asset/landing_3.jpg" alt="">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="btn1"></div>
+                    <div class="btn2"></div>
+                    <div class="btn3"></div>
+                </div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 3){
+                counter = 1;
+            }
+        }, 4000);
+        </script>
+    </section>
+    
+        
+    <section class="produk">
+
+        <div class="inti">
+            <h1>OUR PRODUCTS</h1>
+
+            <div class="new">
+                <div class="new-isi">
+                    <div class="new-gambar">
+                        <img src="asset/dragon_2.jpg">
+                        <img src="asset/dragon.jpg" class="img-front">
+                        <div class="layer">
+                            <h2>Stay fresh with the dragon fruit shade that is rich with vitamin B3, has ultraviolet (UV) radiation protection giving a brightening glow as well as moisturizes and nourishes dull skin.</h2>
+                        </div>
+                    </div>
+                    
+                        
+                </div>
+
+                <div class="new-isi">
+                    <div class="new-gambar">
+                        <img src="asset/beetroot_2.jpg">
+                        <img src="asset/beetroot.jpg" class="img-front">
+                        <div class="layer">
+                            <h2>This dewy looking beetroot shade is rich with vitamin C, has anti-aging properties and even prevents acne breakouts.</h2>
+                        </div>
+                    </div>
+                        
+                        
+                </div>
+
+                <div class="new-isi">
+                    <div class="new-gambar">
+                        <img src="asset/guava_2.png">
+                        <img src="asset/guava.jpg" class="img-front">
+                        <div class="layer">
+                            <h2>Guava Tinted Lip Glass adjust the color according to the pH of the your lips while making your lip healthier. Guava Tinted Lip Glass contains red guava fruit extract which can regulate natural oil so your lip do not become dry or too oily, easily absorb on your lip.</h2>
+                        </div>
+                    </div>
+                        
+                        
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="footer">
+        
+
+        <p>Sincère</p>
+    </section>
+</body>
+</html>
