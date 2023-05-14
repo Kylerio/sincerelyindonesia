@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home/n1579937/public_html/
+  - /bin/cp about.html $DEPLOYPATH
+  - /bin/cp ngetes.html $DEPLOYPATH
+  - /bin/cp product.html $DEPLOYPATH
+  - /bin/cp skinker.html $DEPLOYPATH
+  - /bin/cp -R asset $DEPLOYPATH
+  - /bin/cp -R cssFolder $DEPLOYPATH
